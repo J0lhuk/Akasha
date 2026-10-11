@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-11",
+  "method": "Interactive Codex in-app browser, local demo fixture",
+  "password_login": true,
+  "logout": true,
+  "account_list_visible": true,
+  "local_model_and_current_index_visible": true,
+  "physical_cores": 6,
+  "available_threads": 12,
+  "selected_workers": 4,
+  "inference_threads": 4,
+  "mobile_viewport": 390,
+  "mobile_document_width": 375,
+  "console_warnings_and_errors": 0,
+  "screenshots": ["ui-login-dark.png", "ui-accounts-dark.png", "ui-resources-dark.png", "ui-accounts-mobile.png"],
+  "scope": "Login and view verification; password reset, ACL and revocation additionally tested through actual HTTP/CLI fixtures. Not a full accessibility audit."
+}

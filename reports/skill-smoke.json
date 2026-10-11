@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": [
+    "single command: generated SKILL.md + evidence + provenance + local repository + encrypted upload",
+    "identical input creates no duplicate",
+    "changed procedure retains both versions under one name",
+    "second computer retrieves identical hashes",
+    "specific version installation and preserved replacement backup",
+    "cross-group creation denied"
+  ],
+  "versions": 2,
+  "source_revisions": 1,
+  "fixture_directory": "D:\\!!!-=Projectz=-\\Akasha\\.local\\skills-cli-9df2bfdb2f5c",
+  "installed_directory": "D:\\!!!-=Projectz=-\\Akasha\\.local\\skills-cli-9df2bfdb2f5c\\installed\\payment-retry",
+  "external_hub": false
+}

@@ -1,0 +1,6 @@
+{
+  "github_nonempty_search_pages_verified": 200,
+  "relevant_material_text_hashes_verified": 328,
+  "web_hash_format": "SHA256 of UTF-8 extracted text with normalized LF",
+  "status": "passed"
+}

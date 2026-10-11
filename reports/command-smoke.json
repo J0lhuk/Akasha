@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "fixture": "D:\\!!!-=Projectz=-\\Akasha\\.local\\akasha-commands-iiifg_3e",
+  "binary_sha256": "53726634222bf2e2e84229075a8a9adc770086e0c8808637a154386cb5fa9477",
+  "checks": [
+    "unregistered add requires group; rooted auto-selection",
+    "idempotent add and unchanged import",
+    "persisted budget in context and real PowerShell hook",
+    "prompt variables, cache reuse, observed revision update",
+    "cache clear preserves templates and prompt history",
+    "standalone skill installer in isolated directory"
+  ]
+}

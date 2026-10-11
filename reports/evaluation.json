@@ -1,0 +1,250 @@
+{
+  "created": "2026-10-11T09:38:42.9256423Z",
+  "go": "go1.26.4",
+  "os": "windows/amd64",
+  "logical_cpus": 12,
+  "fixture_sha256": "6ca53eb1bc8b2fe9dd14a4ee7bacafc719b0fb81c8646b0eb3a5fee5f4ae53ea",
+  "data_directory": "C:\\Users\\BAand\\AppData\\Local\\Temp\\akasha-eval-430875071",
+  "records": 1000,
+  "queries": 20,
+  "context_budget": 1024,
+  "recall_at_5": 1,
+  "key_text_retention": 1,
+  "aggregate_reduction_vs_top5_originals": 0.8200290504910165,
+  "all_within_budget": true,
+  "all_repeats_hit_cache": true,
+  "unmatched_query_has_no_sources": true,
+  "foreign_group_absent": true,
+  "tokenizer_first_count_ms": 40.3392,
+  "graph_first_build_ms": 46.9975,
+  "seed_ms": 2781.3905,
+  "fts_first_pass": {
+    "samples": 20,
+    "p50_ms": 2.0002,
+    "p95_ms": 6.003,
+    "max_ms": 7.5347
+  },
+  "fts_repeat_passes": {
+    "samples": 100,
+    "p50_ms": 1.9975,
+    "p95_ms": 5.0013,
+    "max_ms": 13.4917
+  },
+  "context_cache_miss": {
+    "samples": 20,
+    "p50_ms": 13.5949,
+    "p95_ms": 63.0437,
+    "max_ms": 64.5723
+  },
+  "context_cache_hit": {
+    "samples": 100,
+    "p50_ms": 0.5538,
+    "p95_ms": 1.0064,
+    "max_ms": 1.059
+  },
+  "import_first": {
+    "files": 100,
+    "changed": 201,
+    "unchanged": 0,
+    "deleted": 0,
+    "skipped": [],
+    "conflicts": [],
+    "checkpoint": "C:\\Users\\BAand\\AppData\\Local\\Temp\\akasha-eval-430875071\\memory\\spaces\\work\\projects\\source\\checkpoints\\20261011T093847.924246800-201.jsonl.gz"
+  },
+  "import_repeat": {
+    "files": 100,
+    "changed": 0,
+    "unchanged": 201,
+    "deleted": 0,
+    "skipped": [],
+    "conflicts": [],
+    "checkpoint": "C:\\Users\\BAand\\AppData\\Local\\Temp\\akasha-eval-430875071\\memory\\spaces\\work\\projects\\source\\checkpoints\\20261011T093848.244008800-201.jsonl.gz"
+  },
+  "import_first_ms": 790.9883,
+  "import_repeat_ms": 320.5725,
+  "checkpoint_restored_events": 1000,
+  "checkpoint_expected_events": 1000,
+  "cases": [
+    {
+      "id": "queue",
+      "query": "JetStream восстановление задания",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 922,
+      "naive_top5_original_tokens": 7436,
+      "reduction_fraction": 0.8760086067778375
+    },
+    {
+      "id": "pgpool",
+      "query": "PostgreSQL connection pool limit",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 360,
+      "naive_top5_original_tokens": 2559,
+      "reduction_fraction": 0.8593200468933178
+    },
+    {
+      "id": "uploads",
+      "query": "multipart максимальный размер файла",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 327,
+      "naive_top5_original_tokens": 2477,
+      "reduction_fraction": 0.8679854662898667
+    },
+    {
+      "id": "webhook",
+      "query": "webhook HMAC replay validation",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 968,
+      "naive_top5_original_tokens": 2721,
+      "reduction_fraction": 0.6442484380742375
+    },
+    {
+      "id": "cache",
+      "query": "product_cache изменение каталога",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 1001,
+      "naive_top5_original_tokens": 2746,
+      "reduction_fraction": 0.635469774217043
+    },
+    {
+      "id": "migration",
+      "query": "ledger_v3 откат миграции",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 334,
+      "naive_top5_original_tokens": 2482,
+      "reduction_fraction": 0.8654311039484287
+    },
+    {
+      "id": "retry",
+      "query": "payment retry backoff",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 346,
+      "naive_top5_original_tokens": 2470,
+      "reduction_fraction": 0.8599190283400809
+    },
+    {
+      "id": "paths",
+      "query": "Windows SafePath junction escape",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 322,
+      "naive_top5_original_tokens": 2473,
+      "reduction_fraction": 0.8697937727456531
+    },
+    {
+      "id": "locking",
+      "query": "scheduler lease продление блокировки",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 330,
+      "naive_top5_original_tokens": 2482,
+      "reduction_fraction": 0.8670427074939565
+    },
+    {
+      "id": "pagination",
+      "query": "audit cursor pagination order",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 320,
+      "naive_top5_original_tokens": 2469,
+      "reduction_fraction": 0.8703928716079384
+    },
+    {
+      "id": "shutdown",
+      "query": "worker_shutdown активные задания",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 922,
+      "naive_top5_original_tokens": 7436,
+      "reduction_fraction": 0.8760086067778375
+    },
+    {
+      "id": "restore",
+      "query": "checkpoint restore checksum manifest",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 953,
+      "naive_top5_original_tokens": 2730,
+      "reduction_fraction": 0.6509157509157509
+    },
+    {
+      "id": "search",
+      "query": "catalog_fts ранжирование BM25",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 328,
+      "naive_top5_original_tokens": 2475,
+      "reduction_fraction": 0.8674747474747475
+    },
+    {
+      "id": "circuit",
+      "query": "inventory circuit breaker recovery",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 345,
+      "naive_top5_original_tokens": 2464,
+      "reduction_fraction": 0.8599837662337663
+    },
+    {
+      "id": "redact",
+      "query": "auth_log редактирование bearer",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 332,
+      "naive_top5_original_tokens": 2479,
+      "reduction_fraction": 0.8660750302541347
+    },
+    {
+      "id": "acl",
+      "query": "project ACL revocation cache",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 947,
+      "naive_top5_original_tokens": 2718,
+      "reduction_fraction": 0.6515820456217807
+    },
+    {
+      "id": "utf8",
+      "query": "memory_read Unicode offset",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 331,
+      "naive_top5_original_tokens": 2561,
+      "reduction_fraction": 0.8707536118703632
+    },
+    {
+      "id": "docker",
+      "query": "relay_hub Docker read_only tmpfs",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 337,
+      "naive_top5_original_tokens": 2489,
+      "reduction_fraction": 0.8646042587384491
+    },
+    {
+      "id": "temporal",
+      "query": "temporal contradiction valid intervals",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 1021,
+      "naive_top5_original_tokens": 2721,
+      "reduction_fraction": 0.6247703050349136
+    },
+    {
+      "id": "wiki",
+      "query": "wiki manifest внешние правки",
+      "rank_at_5": 1,
+      "expected_text_retained": true,
+      "context_tokens": 653,
+      "naive_top5_original_tokens": 4950,
+      "reduction_fraction": 0.8680808080808081
+    }
+  ],
+  "acceptance_pass": true
+}

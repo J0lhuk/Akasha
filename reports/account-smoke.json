@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "platform": "nt",
+  "checks": [
+    "account password login from native CLI",
+    "protected session file without token in output",
+    "credential file authenticates a second process",
+    "existing credential file is preserved",
+    "revocation immediately denies further calls"
+  ],
+  "fixture": "D:\\!!!-=Projectz=-\\Akasha\\.local\\accounts-cli-77cac64603"
+}

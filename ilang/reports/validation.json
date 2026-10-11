@@ -1,0 +1,84 @@
+{
+  "platform": "Windows-11-10.0.22000-SP0",
+  "logical_cpus": 12,
+  "validation_gomaxprocs": 4,
+  "steps": [
+    {
+      "name": "go-test",
+      "command": [
+        "go",
+        "test",
+        "-p=4",
+        "-json",
+        "./..."
+      ],
+      "exit_code": 0,
+      "seconds": 12.185
+    },
+    {
+      "name": "go-vet",
+      "command": [
+        "go",
+        "vet",
+        "-p=4",
+        "./..."
+      ],
+      "exit_code": 0,
+      "seconds": 3.519
+    },
+    {
+      "name": "build-windows",
+      "command": [
+        "go",
+        "build",
+        "-p=4",
+        "-trimpath",
+        "-o",
+        "bin/akasha-ilang.exe",
+        "./cmd/akasha"
+      ],
+      "exit_code": 0,
+      "seconds": 5.677
+    },
+    {
+      "name": "build-linux",
+      "command": [
+        "go",
+        "build",
+        "-p=4",
+        "-trimpath",
+        "-o",
+        "bin/akasha-ilang-linux-amd64",
+        "./cmd/akasha"
+      ],
+      "exit_code": 0,
+      "seconds": 4.675
+    },
+    {
+      "name": "benchmark",
+      "command": [
+        "go",
+        "test",
+        "./internal/ilang",
+        "-run=^$",
+        "-bench=BenchmarkCompileComposition",
+        "-benchmem",
+        "-benchtime=1s",
+        "-count=3"
+      ],
+      "exit_code": 0,
+      "seconds": 7.425
+    },
+    {
+      "name": "cli-smoke",
+      "command": [
+        "python",
+        "-X",
+        "utf8",
+        "ilang/examples/cli_smoke.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.655
+    }
+  ]
+}

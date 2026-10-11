@@ -1,0 +1,59 @@
+{
+  "format": "akasha.ilang/v1",
+  "name": "video_service",
+  "description": "Compose configuration, a server and integration checks.",
+  "parameters": [
+    {
+      "name": "directory",
+      "type": "string",
+      "question": "В какой папке создать сервер?"
+    },
+    {
+      "name": "port",
+      "type": "integer",
+      "question": "На каком локальном порту его запустить?"
+    }
+  ],
+  "checks": [
+    "Live service port matches the configuration"
+  ],
+  "effects": [
+    "project.write",
+    "network"
+  ],
+  "steps": [
+    {
+      "id": "server",
+      "skill": {
+        "name": "server_vide_h",
+        "version": "9f0d3adeca4c9929e8298fd07c078a85"
+      },
+      "arguments": {
+        "directory": {
+          "input": "directory"
+        },
+        "port": {
+          "input": "port"
+        }
+      },
+      "depends_on": [
+        "configuration"
+      ]
+    },
+    {
+      "id": "configuration",
+      "skill": {
+        "name": "local_configuration",
+        "version": "66f488eb13b2f8461578fe27dadc81e4"
+      },
+      "arguments": {
+        "directory": {
+          "input": "directory"
+        },
+        "port": {
+          "input": "port"
+        }
+      }
+    }
+  ]
+}

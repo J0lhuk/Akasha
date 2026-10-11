@@ -1,0 +1,70 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.10kB done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/golang:1.26.4-bookworm
+#2 DONE 1.5s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 137B done
+#3 DONE 0.3s
+
+#4 [dependencies 1/5] FROM docker.io/library/golang:1.26.4-bookworm@sha256:b305420a68d0f229d91eb3b3ed9e519fcf2cf5461da4bef997bf927e8c0bfd2b
+#4 resolve docker.io/library/golang:1.26.4-bookworm@sha256:b305420a68d0f229d91eb3b3ed9e519fcf2cf5461da4bef997bf927e8c0bfd2b 0.0s done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 25.76kB 0.0s done
+#5 DONE 0.0s
+
+#6 [dependencies 4/5] COPY third_party ./third_party
+#6 CACHED
+
+#7 [dependencies 5/5] RUN go mod download && go mod verify
+#7 CACHED
+
+#8 [dependencies 2/5] WORKDIR /src
+#8 CACHED
+
+#9 [dependencies 3/5] COPY go.mod go.sum ./
+#9 CACHED
+
+#10 [test 1/3] COPY cmd ./cmd
+#10 CACHED
+
+#11 [test 2/3] COPY internal ./internal
+#11 DONE 0.6s
+
+#12 [test 3/3] RUN --mount=type=cache,target=/root/.cache/go-build CGO_ENABLED=1 go test -race ./... && go vet ./...
+#12 2.142 ?   	akasha/cmd/akasha	[no test files]
+#12 2.142 ?   	akasha/cmd/akasha-eval	[no test files]
+#12 2.149 ok  	akasha/internal/auth	(cached)
+#12 2.149 ok  	akasha/internal/cache	(cached)
+#12 2.150 ok  	akasha/internal/core	(cached)
+#12 2.150 ?   	akasha/internal/embedding	[no test files]
+#12 2.150 ok  	akasha/internal/integration	(cached)
+#12 2.151 ok  	akasha/internal/resources	(cached)
+#12 2.986 ok  	akasha/internal/sessionhttp	(cached)
+#12 5.511 ok  	akasha/internal/skillrepo	1.834s
+#12 5.511 ok  	akasha/internal/sqldb	(cached)
+#12 10.49 ok  	akasha/internal/syncer	6.101s
+#12 10.49 ok  	akasha/internal/vault	(cached)
+#12 10.49 ok  	akasha/internal/webui	1.597s
+#12 DONE 14.7s
+
+#13 exporting to image
+#13 exporting layers
+#13 exporting layers 0.8s done
+#13 exporting manifest sha256:0e893d0a228755f36926537b08be9157d35f766366df7f893ee66abe0c56f254 0.1s done
+#13 exporting config sha256:aa62bf25f4e75617d014e9e72293c64957fe7ee419ae02e40e9146604360bdf3 0.1s done
+#13 exporting attestation manifest sha256:835d10c92073e46f119cf1a2886ee7b187cc3d6a7c08aea9c92059e32dedc0b6 0.1s done
+#13 exporting manifest list sha256:1ee13d5bdccf97032a4c365162ef59bdf26ee91dcbb3dab7e6c8ae1ddc7573da
+#13 exporting manifest list sha256:1ee13d5bdccf97032a4c365162ef59bdf26ee91dcbb3dab7e6c8ae1ddc7573da 0.1s done
+#13 naming to docker.io/library/akasha-test:0.2.0 done
+#13 unpacking to docker.io/library/akasha-test:0.2.0
+#13 unpacking to docker.io/library/akasha-test:0.2.0 0.4s done
+#13 DONE 1.7s
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/u9vq42u29j863nme6id8wdexc

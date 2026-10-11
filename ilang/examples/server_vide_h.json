@@ -1,0 +1,13 @@
+{
+  "format": "akasha.ilang/v1",
+  "name": "server_vide_h",
+  "description": "Учебный рецепт локального HTTP-сервера с проверкой здоровья. Требует явного выбора папки и порта.",
+  "parameters": [
+    {"name": "directory", "type": "string", "question": "В какой папке создать сервер?"},
+    {"name": "port", "type": "integer", "question": "На каком локальном порту его запустить?"}
+  ],
+  "prompt": "Создай минимальный локальный HTTP-сервер в {{directory}}, на 127.0.0.1 и порту {{port}}. GET /healthz должен возвращать JSON со status=ok. Проверь реальным HTTP-запросом.",
+  "checks": ["GET /healthz returns HTTP 200 and status=ok"],
+  "effects": ["project.write", "network"],
+  "evidence": ["Учебный пример формата; не утверждение о ранее развёрнутом сервере"]
+}

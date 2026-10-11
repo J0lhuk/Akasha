@@ -1,0 +1,16 @@
+/bin/
+/dist/
+/.local/
+/research/raw/
+*.db
+*.db-shm
+*.db-wal
+*.test
+*.exe
+*.out
+__pycache__/
+.env
+*.key
+*.token
+*.akasha-key
+/reports/runtime/

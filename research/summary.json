@@ -1,0 +1,10 @@
+{
+  "github_nonempty_unique_search_pages": 200,
+  "github_unique_repositories": 1732,
+  "web_fetched_unique_texts": 360,
+  "web_screened_relevant": 328,
+  "web_excluded": 32,
+  "web_relevant_hosts": 31,
+  "repository_readmes": 36,
+  "gate_passed": true
+}

@@ -1,0 +1,9 @@
+goos: windows
+goarch: amd64
+pkg: akasha/internal/ilang
+cpu: AMD Ryzen 7 1700 Eight-Core Processor          
+BenchmarkCompileComposition-4   	     744	   1501168 ns/op	  264854 B/op	    3980 allocs/op
+BenchmarkCompileComposition-4   	     811	   1663507 ns/op	  264938 B/op	    3991 allocs/op
+BenchmarkCompileComposition-4   	     782	   1521668 ns/op	  264231 B/op	    3970 allocs/op
+PASS
+ok  	akasha/internal/ilang	4.742s

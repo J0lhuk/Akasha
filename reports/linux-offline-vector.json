@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "platform": "linux/amd64",
+  "network_for_inference": "none",
+  "model": "multilingual-e5-small-int8-761b726d-mean-v1",
+  "dimensions": 384,
+  "norm": 1.0000000422305317,
+  "chunks": 2,
+  "top_match": "Payments",
+  "duration_seconds": 44.95274400000926,
+  "model_install_network": "bridge; pinned runtime downloads only",
+  "container_memory_limit_bytes": 1073741824
+}

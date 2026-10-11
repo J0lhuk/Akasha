@@ -1,0 +1,43 @@
+{
+  "compose_project": "akasha-e2e-44bb405fd7",
+  "users": 10,
+  "passed": false,
+  "checks": [
+    "Alembic revision, Timescale hypertable, application database role without superuser",
+    "Ten concurrent account logins; ten isolated catalogs; cross-group reads denied",
+    "400 parallel HTTP sync requests; 200 preserved events; ten same-project writers and idempotent retries"
+  ],
+  "timescale_version": "2.30.2",
+  "postgres_version": "17.11",
+  "load": {
+    "requests": 400,
+    "duration_seconds": 3.416736999992281,
+    "requests_per_second": 117.07076078753022,
+    "p50_ms": 52.849599975161254,
+    "p95_ms": 380.74000005144626,
+    "max_ms": 621.4191999752074
+  },
+  "metrics": {
+    "active_users_24h": 11,
+    "database": "PostgreSQL / TimescaleDB",
+    "mean_ms": 221.22025672877842,
+    "metrics_dropped": 1,
+    "metrics_pending": 0,
+    "p95_ms": 363.7509999999997,
+    "pool": {
+      "MaxOpenConnections": 20,
+      "OpenConnections": 5,
+      "InUse": 0,
+      "Idle": 5,
+      "WaitCount": 0,
+      "WaitDuration": 0,
+      "MaxIdleClosed": 71,
+      "MaxIdleTimeClosed": 0,
+      "MaxLifetimeClosed": 0
+    },
+    "requests_24h": 483,
+    "response_bytes_24h": 1909839
+  },
+  "failure": "{'active_users_24h': 11, 'database': 'PostgreSQL / TimescaleDB', 'mean_ms': 221.22025672877842, 'metrics_dropped': 1, 'metrics_pending': 0, 'p95_ms': 363.7509999999997, 'pool': {'MaxOpenConnections': 20, 'OpenConnections': 5, 'InUse': 0, 'Idle': 5, 'WaitCount': 0, 'WaitDuration': 0, 'MaxIdleClosed': 71, 'MaxIdleTimeClosed': 0, 'MaxLifetimeClosed': 0}, 'requests_24h': 483, 'response_bytes_24h': 1909839}",
+  "other_containers_unchanged": true
+}

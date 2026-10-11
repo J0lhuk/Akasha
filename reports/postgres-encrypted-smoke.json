@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "external_hub": true,
+  "project": "smoke-4161358a4568",
+  "fixture_data": "D:\\!!!-=Projectz=-\\Akasha\\.local\\smoke-1191de3e5b07",
+  "checks": [
+    "source import + unchanged delta + .env exclusion",
+    "encrypted source + vault + Git bundle on independent device",
+    "offline concurrent edits converge without losing either version",
+    "hub reader authorization, denied write, revoked read",
+    "native MCP stdio reader startup/list/context + budget + secret exclusion + denied write",
+    "real stdin/stdout Codex hooks, prompt redaction and Stop checkpoint",
+    "generated project-bound plugin and configuration"
+  ],
+  "checks_passed": 7,
+  "binary_sha256": "8b3e03a2dc9b7be22d04089e352e93bfa9bce108e5e872710704f65e356ee6aa",
+  "first_sync": {
+    "pushed": 7,
+    "pulled": 0,
+    "pull_cursor": 7,
+    "push_cursor": 7
+  }
+}

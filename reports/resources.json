@@ -1,0 +1,24 @@
+{
+  "profile": {
+    "logical_cpus": 12,
+    "physical_cores": 6,
+    "cpu_packages": 1,
+    "available_threads": 12,
+    "total_memory_bytes": 34293211136,
+    "available_memory_bytes": 9997516800,
+    "go_soft_memory_limit_bytes": 2147483648,
+    "native_inference_reserve_bytes": 536870912,
+    "workers": 4,
+    "inference_threads": 4,
+    "import_window_files": 8,
+    "vector_cache_budget_bytes": 134217728
+  },
+  "vector_cache": {
+    "entries": 0,
+    "bytes": 0,
+    "budget_bytes": 134217728,
+    "hits": 0,
+    "misses": 0,
+    "evictions": 0
+  }
+}

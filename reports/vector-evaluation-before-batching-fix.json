@@ -1,0 +1,89 @@
+{
+  "first_index": {
+    "model": "multilingual-e5-small-int8-761b726d-mean-v1/runes-480-overlap-80-v1",
+    "dimensions": 384,
+    "chunks": 12,
+    "indexed_revision": 12,
+    "source_revision": 12,
+    "stale": false,
+    "vector_bytes": 18432,
+    "embedding_cache_entries": 12,
+    "embedding_cache_bytes": 18432,
+    "embedded": 12,
+    "reused": 0,
+    "duration_ms": 1491.472
+  },
+  "incremental_index": {
+    "model": "multilingual-e5-small-int8-761b726d-mean-v1/runes-480-overlap-80-v1",
+    "dimensions": 384,
+    "chunks": 12,
+    "indexed_revision": 15,
+    "source_revision": 15,
+    "stale": false,
+    "vector_bytes": 18432,
+    "embedding_cache_entries": 13,
+    "embedding_cache_bytes": 19968,
+    "embedded": 1,
+    "reused": 11,
+    "duration_ms": 14.049
+  },
+  "lexical_recall_at_5": 0,
+  "model": "multilingual-e5-small-int8-761b726d-mean-v1",
+  "offline": true,
+  "queries": [
+    {
+      "query": "Как избежать повторного списания денег при отправке заказа?",
+      "rank": 3,
+      "lexical_rank": 0,
+      "ms": 12.249
+    },
+    {
+      "query": "Защита учётных данных от перебора с дорогими вычислениями",
+      "rank": 0,
+      "lexical_rank": 0,
+      "ms": 11.999
+    },
+    {
+      "query": "Пауза между попытками соединения должна увеличиваться",
+      "rank": 5,
+      "lexical_rank": 0,
+      "ms": 10.003
+    },
+    {
+      "query": "Безопасная передача информации по сети",
+      "rank": 3,
+      "lexical_rank": 0,
+      "ms": 10.055
+    },
+    {
+      "query": "Recover data after storage device failure",
+      "rank": 1,
+      "lexical_rank": 0,
+      "ms": 9.652
+    },
+    {
+      "query": "Reject edits made from an outdated document revision",
+      "rank": 1,
+      "lexical_rank": 0,
+      "ms": 11.932
+    }
+  ],
+  "query_p95_ms": 12.249,
+  "recall_at_5": 0.8333333333333334,
+  "repeat_index": {
+    "model": "multilingual-e5-small-int8-761b726d-mean-v1/runes-480-overlap-80-v1",
+    "dimensions": 384,
+    "chunks": 12,
+    "indexed_revision": 12,
+    "source_revision": 12,
+    "stale": false,
+    "vector_bytes": 18432,
+    "embedding_cache_entries": 12,
+    "embedding_cache_bytes": 18432,
+    "embedded": 0,
+    "reused": 12,
+    "duration_ms": 0
+  },
+  "scope_denied": true,
+  "stale_heads_excluded": true
+}

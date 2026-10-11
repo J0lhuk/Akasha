@@ -1,0 +1,46 @@
+{
+  "compose_project": "akasha-e2e-8e9253c434",
+  "users": 10,
+  "passed": true,
+  "checks": [
+    "Alembic revision, Timescale hypertable, application database role without superuser",
+    "Ten concurrent account logins; ten isolated catalogs; cross-group reads denied",
+    "400 parallel HTTP sync requests; 200 preserved events; ten same-project writers and idempotent retries",
+    "Disable/logout immediately revoke sessions; Timescale metrics restricted to administrator",
+    "Repeated Alembic upgrade and hub restart preserve accounts, sessions and event history",
+    "Real CLI: encrypted vault/code/Git/context synchronization through PostgreSQL",
+    "Single-command skill creation, encrypted two-client transfer, divergent versions and protected installation through PostgreSQL"
+  ],
+  "timescale_version": "2.30.2",
+  "postgres_version": "17.11",
+  "load": {
+    "requests": 400,
+    "duration_seconds": 1.7794908999931067,
+    "requests_per_second": 224.78339170014834,
+    "p50_ms": 23.872800054959953,
+    "p95_ms": 103.97339996416122,
+    "max_ms": 166.13220004364848
+  },
+  "metrics": {
+    "active_users_24h": 11,
+    "database": "PostgreSQL / TimescaleDB",
+    "mean_ms": 18.522739130434765,
+    "metrics_dropped": 0,
+    "metrics_pending": 0,
+    "p95_ms": 71.0004,
+    "pool": {
+      "MaxOpenConnections": 20,
+      "OpenConnections": 5,
+      "InUse": 0,
+      "Idle": 5,
+      "WaitCount": 0,
+      "WaitDuration": 0,
+      "MaxIdleClosed": 87,
+      "MaxIdleTimeClosed": 0,
+      "MaxLifetimeClosed": 0
+    },
+    "requests_24h": 483,
+    "response_bytes_24h": 1909839
+  },
+  "other_containers_unchanged": false
+}

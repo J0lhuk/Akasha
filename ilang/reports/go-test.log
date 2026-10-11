@@ -1,0 +1,318 @@
+{"Time":"2026-10-11T14:48:27.0388854+03:00","Action":"start","Package":"akasha/cmd/akasha"}
+{"Time":"2026-10-11T14:48:27.0388854+03:00","Action":"output","Package":"akasha/cmd/akasha","Output":"?   \takasha/cmd/akasha\t[no test files]\n"}
+{"Time":"2026-10-11T14:48:27.0388854+03:00","Action":"skip","Package":"akasha/cmd/akasha","Elapsed":0}
+{"Time":"2026-10-11T14:48:27.0388854+03:00","Action":"start","Package":"akasha/cmd/akasha-eval"}
+{"Time":"2026-10-11T14:48:27.0388854+03:00","Action":"output","Package":"akasha/cmd/akasha-eval","Output":"?   \takasha/cmd/akasha-eval\t[no test files]\n"}
+{"Time":"2026-10-11T14:48:27.0388854+03:00","Action":"skip","Package":"akasha/cmd/akasha-eval","Elapsed":0}
+{"Time":"2026-10-11T14:48:27.0388854+03:00","Action":"start","Package":"akasha/internal/auth"}
+{"Time":"2026-10-11T14:48:27.0388854+03:00","Action":"run","Package":"akasha/internal/auth","Test":"TestLocalTokenSurvivesReopen"}
+{"Time":"2026-10-11T14:48:27.0388854+03:00","Action":"output","Package":"akasha/internal/auth","Test":"TestLocalTokenSurvivesReopen","Output":"=== RUN   TestLocalTokenSurvivesReopen\n"}
+{"Time":"2026-10-11T14:48:27.0388854+03:00","Action":"output","Package":"akasha/internal/auth","Test":"TestLocalTokenSurvivesReopen","Output":"--- PASS: TestLocalTokenSurvivesReopen (0.01s)\n"}
+{"Time":"2026-10-11T14:48:27.0388854+03:00","Action":"pass","Package":"akasha/internal/auth","Test":"TestLocalTokenSurvivesReopen","Elapsed":0.01}
+{"Time":"2026-10-11T14:48:27.0388854+03:00","Action":"output","Package":"akasha/internal/auth","Output":"PASS\n"}
+{"Time":"2026-10-11T14:48:27.0388854+03:00","Action":"output","Package":"akasha/internal/auth","Output":"ok  \takasha/internal/auth\t(cached)\n"}
+{"Time":"2026-10-11T14:48:27.0388854+03:00","Action":"pass","Package":"akasha/internal/auth","Elapsed":0}
+{"Time":"2026-10-11T14:48:27.0408897+03:00","Action":"start","Package":"akasha/internal/cache"}
+{"Time":"2026-10-11T14:48:27.0408897+03:00","Action":"run","Package":"akasha/internal/cache","Test":"TestBoundsAndConcurrentEviction"}
+{"Time":"2026-10-11T14:48:27.0408897+03:00","Action":"output","Package":"akasha/internal/cache","Test":"TestBoundsAndConcurrentEviction","Output":"=== RUN   TestBoundsAndConcurrentEviction\n"}
+{"Time":"2026-10-11T14:48:27.0408897+03:00","Action":"output","Package":"akasha/internal/cache","Test":"TestBoundsAndConcurrentEviction","Output":"--- PASS: TestBoundsAndConcurrentEviction (0.00s)\n"}
+{"Time":"2026-10-11T14:48:27.0408897+03:00","Action":"pass","Package":"akasha/internal/cache","Test":"TestBoundsAndConcurrentEviction","Elapsed":0}
+{"Time":"2026-10-11T14:48:27.0408897+03:00","Action":"output","Package":"akasha/internal/cache","Output":"PASS\n"}
+{"Time":"2026-10-11T14:48:27.0408897+03:00","Action":"output","Package":"akasha/internal/cache","Output":"ok  \takasha/internal/cache\t(cached)\n"}
+{"Time":"2026-10-11T14:48:27.0408897+03:00","Action":"pass","Package":"akasha/internal/cache","Elapsed":0}
+{"Time":"2026-10-11T14:48:28.5527618+03:00","Action":"start","Package":"akasha/internal/core"}
+{"Time":"2026-10-11T14:48:28.5527618+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestAccountsLoginRevocationAndACL"}
+{"Time":"2026-10-11T14:48:28.5527618+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestAccountsLoginRevocationAndACL","Output":"=== RUN   TestAccountsLoginRevocationAndACL\n"}
+{"Time":"2026-10-11T14:48:28.5527618+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestAccountsLoginRevocationAndACL","Output":"--- PASS: TestAccountsLoginRevocationAndACL (0.78s)\n"}
+{"Time":"2026-10-11T14:48:28.5527618+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestAccountsLoginRevocationAndACL","Elapsed":0.78}
+{"Time":"2026-10-11T14:48:28.5527618+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestPromptVersionsBudgetsAndCache"}
+{"Time":"2026-10-11T14:48:28.5527618+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestPromptVersionsBudgetsAndCache","Output":"=== RUN   TestPromptVersionsBudgetsAndCache\n"}
+{"Time":"2026-10-11T14:48:28.5527618+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestPromptVersionsBudgetsAndCache","Output":"--- PASS: TestPromptVersionsBudgetsAndCache (0.12s)\n"}
+{"Time":"2026-10-11T14:48:28.5527618+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestPromptVersionsBudgetsAndCache","Elapsed":0.12}
+{"Time":"2026-10-11T14:48:28.5527618+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestIncrementalImportCheckpointAndWiki"}
+{"Time":"2026-10-11T14:48:28.5527618+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestIncrementalImportCheckpointAndWiki","Output":"=== RUN   TestIncrementalImportCheckpointAndWiki\n"}
+{"Time":"2026-10-11T14:48:28.5527618+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestIncrementalImportCheckpointAndWiki","Output":"--- PASS: TestIncrementalImportCheckpointAndWiki (0.70s)\n"}
+{"Time":"2026-10-11T14:48:28.5527618+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestIncrementalImportCheckpointAndWiki","Elapsed":0.7}
+{"Time":"2026-10-11T14:48:28.5527618+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation"}
+{"Time":"2026-10-11T14:48:28.5527618+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation","Output":"=== RUN   TestSafePathAndRootIsolation\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/../escape"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/../escape","Output":"=== RUN   TestSafePathAndRootIsolation/../escape\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/../escape","Output":"--- PASS: TestSafePathAndRootIsolation/../escape (0.00s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/../escape","Elapsed":0}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/a/../../escape"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/a/../../escape","Output":"=== RUN   TestSafePathAndRootIsolation/a/../../escape\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/a/../../escape","Output":"--- PASS: TestSafePathAndRootIsolation/a/../../escape (0.00s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/a/../../escape","Elapsed":0}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/C:/escape"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/C:/escape","Output":"=== RUN   TestSafePathAndRootIsolation/C:/escape\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/C:/escape","Output":"--- PASS: TestSafePathAndRootIsolation/C:/escape (0.00s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/C:/escape","Elapsed":0}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation//escape"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation//escape","Output":"=== RUN   TestSafePathAndRootIsolation//escape\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation//escape","Output":"--- PASS: TestSafePathAndRootIsolation//escape (0.00s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation//escape","Elapsed":0}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/a\\escape"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/a\\escape","Output":"=== RUN   TestSafePathAndRootIsolation/a\\escape\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/a\\escape","Output":"--- PASS: TestSafePathAndRootIsolation/a\\escape (0.00s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/a\\escape","Elapsed":0}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/NUL.txt"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/NUL.txt","Output":"=== RUN   TestSafePathAndRootIsolation/NUL.txt\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/NUL.txt","Output":"--- PASS: TestSafePathAndRootIsolation/NUL.txt (0.00s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/NUL.txt","Elapsed":0}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/COM1"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/COM1","Output":"=== RUN   TestSafePathAndRootIsolation/COM1\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/COM1","Output":"--- PASS: TestSafePathAndRootIsolation/COM1 (0.00s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/COM1","Elapsed":0}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/dir/trailing._"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/dir/trailing._","Output":"=== RUN   TestSafePathAndRootIsolation/dir/trailing._\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/dir/trailing._","Output":"--- PASS: TestSafePathAndRootIsolation/dir/trailing._ (0.00s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation/dir/trailing._","Elapsed":0}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation","Output":"--- PASS: TestSafePathAndRootIsolation (0.10s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestSafePathAndRootIsolation","Elapsed":0.1}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache","Output":"=== RUN   TestContextBudgetIsolationAndCache\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_64"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_64","Output":"=== RUN   TestContextBudgetIsolationAndCache/budget_64\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_64","Output":"--- PASS: TestContextBudgetIsolationAndCache/budget_64 (0.04s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_64","Elapsed":0.04}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_128"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_128","Output":"=== RUN   TestContextBudgetIsolationAndCache/budget_128\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_128","Output":"--- PASS: TestContextBudgetIsolationAndCache/budget_128 (0.01s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_128","Elapsed":0.01}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_512"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_512","Output":"=== RUN   TestContextBudgetIsolationAndCache/budget_512\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_512","Output":"--- PASS: TestContextBudgetIsolationAndCache/budget_512 (0.01s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_512","Elapsed":0.01}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_1500"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_1500","Output":"=== RUN   TestContextBudgetIsolationAndCache/budget_1500\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_1500","Output":"--- PASS: TestContextBudgetIsolationAndCache/budget_1500 (0.01s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache/budget_1500","Elapsed":0.01}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache","Output":"--- PASS: TestContextBudgetIsolationAndCache (0.85s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestContextBudgetIsolationAndCache","Elapsed":0.85}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestStructuredContradictions"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestStructuredContradictions","Output":"=== RUN   TestStructuredContradictions\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestStructuredContradictions","Output":"--- PASS: TestStructuredContradictions (0.09s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestStructuredContradictions","Elapsed":0.09}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestSearchIdentifierSurvivesLongDocument"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSearchIdentifierSurvivesLongDocument","Output":"=== RUN   TestSearchIdentifierSurvivesLongDocument\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSearchIdentifierSurvivesLongDocument","Output":"--- PASS: TestSearchIdentifierSurvivesLongDocument (0.34s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestSearchIdentifierSurvivesLongDocument","Elapsed":0.34}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestPromptHistoryKeepsKnowledgeCacheAndGraph"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestPromptHistoryKeepsKnowledgeCacheAndGraph","Output":"=== RUN   TestPromptHistoryKeepsKnowledgeCacheAndGraph\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestPromptHistoryKeepsKnowledgeCacheAndGraph","Output":"--- PASS: TestPromptHistoryKeepsKnowledgeCacheAndGraph (0.35s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestPromptHistoryKeepsKnowledgeCacheAndGraph","Elapsed":0.35}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestSharedVisibilityAndPromptHistory"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSharedVisibilityAndPromptHistory","Output":"=== RUN   TestSharedVisibilityAndPromptHistory\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestSharedVisibilityAndPromptHistory","Output":"--- PASS: TestSharedVisibilityAndPromptHistory (0.11s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestSharedVisibilityAndPromptHistory","Elapsed":0.11}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestIsolationAndRoles"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestIsolationAndRoles","Output":"=== RUN   TestIsolationAndRoles\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestIsolationAndRoles","Output":"--- PASS: TestIsolationAndRoles (0.07s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestIsolationAndRoles","Elapsed":0.07}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestRevisionsAndConcurrentMerge"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestRevisionsAndConcurrentMerge","Output":"=== RUN   TestRevisionsAndConcurrentMerge\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestRevisionsAndConcurrentMerge","Output":"--- PASS: TestRevisionsAndConcurrentMerge (0.11s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestRevisionsAndConcurrentMerge","Elapsed":0.11}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestMergeRejectsCyclesAndCrossEntityParents"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestMergeRejectsCyclesAndCrossEntityParents","Output":"=== RUN   TestMergeRejectsCyclesAndCrossEntityParents\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestMergeRejectsCyclesAndCrossEntityParents/cycle"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestMergeRejectsCyclesAndCrossEntityParents/cycle","Output":"=== RUN   TestMergeRejectsCyclesAndCrossEntityParents/cycle\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestMergeRejectsCyclesAndCrossEntityParents/cycle","Output":"--- PASS: TestMergeRejectsCyclesAndCrossEntityParents/cycle (0.06s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestMergeRejectsCyclesAndCrossEntityParents/cycle","Elapsed":0.06}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestMergeRejectsCyclesAndCrossEntityParents/cross_entity"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestMergeRejectsCyclesAndCrossEntityParents/cross_entity","Output":"=== RUN   TestMergeRejectsCyclesAndCrossEntityParents/cross_entity\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestMergeRejectsCyclesAndCrossEntityParents/cross_entity","Output":"--- PASS: TestMergeRejectsCyclesAndCrossEntityParents/cross_entity (0.11s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestMergeRejectsCyclesAndCrossEntityParents/cross_entity","Elapsed":0.11}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestMergeRejectsCyclesAndCrossEntityParents","Output":"--- PASS: TestMergeRejectsCyclesAndCrossEntityParents (0.17s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Test":"TestMergeRejectsCyclesAndCrossEntityParents","Elapsed":0.17}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"run","Package":"akasha/internal/core","Test":"TestNativeVectorRetrieval"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestNativeVectorRetrieval","Output":"=== RUN   TestNativeVectorRetrieval\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestNativeVectorRetrieval","Output":"    vector_test.go:20: set AKASHA_TEST_MODEL_DATA for real native inference\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Test":"TestNativeVectorRetrieval","Output":"--- SKIP: TestNativeVectorRetrieval (0.00s)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"skip","Package":"akasha/internal/core","Test":"TestNativeVectorRetrieval","Elapsed":0}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Output":"PASS\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"output","Package":"akasha/internal/core","Output":"ok  \takasha/internal/core\t(cached)\n"}
+{"Time":"2026-10-11T14:48:28.5533005+03:00","Action":"pass","Package":"akasha/internal/core","Elapsed":0.001}
+{"Time":"2026-10-11T14:48:28.55545+03:00","Action":"start","Package":"akasha/internal/embedding"}
+{"Time":"2026-10-11T14:48:28.55545+03:00","Action":"output","Package":"akasha/internal/embedding","Output":"?   \takasha/internal/embedding\t[no test files]\n"}
+{"Time":"2026-10-11T14:48:28.55545+03:00","Action":"skip","Package":"akasha/internal/embedding","Elapsed":0}
+{"Time":"2026-10-11T14:48:28.55545+03:00","Action":"start","Package":"akasha/internal/ilang"}
+{"Time":"2026-10-11T14:48:28.5955224+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestQuestionsBeforePlanAndOnePassSubstitution"}
+{"Time":"2026-10-11T14:48:28.5955224+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestQuestionsBeforePlanAndOnePassSubstitution","Output":"=== RUN   TestQuestionsBeforePlanAndOnePassSubstitution\n"}
+{"Time":"2026-10-11T14:48:28.8235275+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestQuestionsBeforePlanAndOnePassSubstitution","Output":"--- PASS: TestQuestionsBeforePlanAndOnePassSubstitution (0.23s)\n"}
+{"Time":"2026-10-11T14:48:28.8235275+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestQuestionsBeforePlanAndOnePassSubstitution","Elapsed":0.23}
+{"Time":"2026-10-11T14:48:28.8235275+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestCompositionPinsNestedOrderAndVersions"}
+{"Time":"2026-10-11T14:48:28.8235275+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestCompositionPinsNestedOrderAndVersions","Output":"=== RUN   TestCompositionPinsNestedOrderAndVersions\n"}
+{"Time":"2026-10-11T14:48:28.9452703+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestCompositionPinsNestedOrderAndVersions","Output":"--- PASS: TestCompositionPinsNestedOrderAndVersions (0.12s)\n"}
+{"Time":"2026-10-11T14:48:28.9452703+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestCompositionPinsNestedOrderAndVersions","Elapsed":0.12}
+{"Time":"2026-10-11T14:48:28.9452703+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions"}
+{"Time":"2026-10-11T14:48:28.9452703+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions","Output":"=== RUN   TestInvalidDefinitions\n"}
+{"Time":"2026-10-11T14:48:29.0663631+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unknown-dependency"}
+{"Time":"2026-10-11T14:48:29.0663631+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unknown-dependency","Output":"=== RUN   TestInvalidDefinitions/unknown-dependency\n"}
+{"Time":"2026-10-11T14:48:29.0668783+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unknown-dependency","Output":"--- PASS: TestInvalidDefinitions/unknown-dependency (0.00s)\n"}
+{"Time":"2026-10-11T14:48:29.0668783+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unknown-dependency","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.0668783+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/missing-binding"}
+{"Time":"2026-10-11T14:48:29.0668783+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/missing-binding","Output":"=== RUN   TestInvalidDefinitions/missing-binding\n"}
+{"Time":"2026-10-11T14:48:29.067413+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/missing-binding","Output":"--- PASS: TestInvalidDefinitions/missing-binding (0.00s)\n"}
+{"Time":"2026-10-11T14:48:29.067413+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/missing-binding","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.067413+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unknown-input"}
+{"Time":"2026-10-11T14:48:29.067413+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unknown-input","Output":"=== RUN   TestInvalidDefinitions/unknown-input\n"}
+{"Time":"2026-10-11T14:48:29.067413+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unknown-input","Output":"--- PASS: TestInvalidDefinitions/unknown-input (0.00s)\n"}
+{"Time":"2026-10-11T14:48:29.067413+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unknown-input","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.0679617+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/type-mismatch"}
+{"Time":"2026-10-11T14:48:29.0679617+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/type-mismatch","Output":"=== RUN   TestInvalidDefinitions/type-mismatch\n"}
+{"Time":"2026-10-11T14:48:29.0679617+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/type-mismatch","Output":"--- PASS: TestInvalidDefinitions/type-mismatch (0.00s)\n"}
+{"Time":"2026-10-11T14:48:29.0679617+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/type-mismatch","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.0679617+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/bad-literal"}
+{"Time":"2026-10-11T14:48:29.0679617+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/bad-literal","Output":"=== RUN   TestInvalidDefinitions/bad-literal\n"}
+{"Time":"2026-10-11T14:48:29.0684993+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/bad-literal","Output":"--- PASS: TestInvalidDefinitions/bad-literal (0.00s)\n"}
+{"Time":"2026-10-11T14:48:29.0684993+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/bad-literal","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.0684993+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/two-implementations"}
+{"Time":"2026-10-11T14:48:29.0684993+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/two-implementations","Output":"=== RUN   TestInvalidDefinitions/two-implementations\n"}
+{"Time":"2026-10-11T14:48:29.0690302+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/two-implementations","Output":"--- PASS: TestInvalidDefinitions/two-implementations (0.00s)\n"}
+{"Time":"2026-10-11T14:48:29.0690302+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/two-implementations","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.0690302+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/cycle"}
+{"Time":"2026-10-11T14:48:29.0690302+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/cycle","Output":"=== RUN   TestInvalidDefinitions/cycle\n"}
+{"Time":"2026-10-11T14:48:29.0690302+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/cycle","Output":"--- PASS: TestInvalidDefinitions/cycle (0.00s)\n"}
+{"Time":"2026-10-11T14:48:29.0690302+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/cycle","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.0690302+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/ambiguous-binding"}
+{"Time":"2026-10-11T14:48:29.0690302+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/ambiguous-binding","Output":"=== RUN   TestInvalidDefinitions/ambiguous-binding\n"}
+{"Time":"2026-10-11T14:48:29.0690302+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/ambiguous-binding","Output":"--- PASS: TestInvalidDefinitions/ambiguous-binding (0.00s)\n"}
+{"Time":"2026-10-11T14:48:29.0690302+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/ambiguous-binding","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.0690302+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unlisted-effect"}
+{"Time":"2026-10-11T14:48:29.0690302+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unlisted-effect","Output":"=== RUN   TestInvalidDefinitions/unlisted-effect\n"}
+{"Time":"2026-10-11T14:48:29.0695721+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unlisted-effect","Output":"--- PASS: TestInvalidDefinitions/unlisted-effect (0.00s)\n"}
+{"Time":"2026-10-11T14:48:29.0695721+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unlisted-effect","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.0695721+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/wrong-version-name"}
+{"Time":"2026-10-11T14:48:29.0695721+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/wrong-version-name","Output":"=== RUN   TestInvalidDefinitions/wrong-version-name\n"}
+{"Time":"2026-10-11T14:48:29.0701129+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/wrong-version-name","Output":"--- PASS: TestInvalidDefinitions/wrong-version-name (0.00s)\n"}
+{"Time":"2026-10-11T14:48:29.0701129+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/wrong-version-name","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.0701129+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unpinned"}
+{"Time":"2026-10-11T14:48:29.0701129+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unpinned","Output":"=== RUN   TestInvalidDefinitions/unpinned\n"}
+{"Time":"2026-10-11T14:48:29.0706644+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unpinned","Output":"--- PASS: TestInvalidDefinitions/unpinned (0.00s)\n"}
+{"Time":"2026-10-11T14:48:29.0706644+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions/unpinned","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.0880198+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions","Output":"--- PASS: TestInvalidDefinitions (0.14s)\n"}
+{"Time":"2026-10-11T14:48:29.0885783+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestInvalidDefinitions","Elapsed":0.14}
+{"Time":"2026-10-11T14:48:29.0885783+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestLimitsAndCredentials"}
+{"Time":"2026-10-11T14:48:29.0885783+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestLimitsAndCredentials","Output":"=== RUN   TestLimitsAndCredentials\n"}
+{"Time":"2026-10-11T14:48:29.1746558+03:00","Action":"start","Package":"akasha/internal/integration"}
+{"Time":"2026-10-11T14:48:29.1752083+03:00","Action":"start","Package":"akasha/internal/resources"}
+{"Time":"2026-10-11T14:48:29.1752083+03:00","Action":"run","Package":"akasha/internal/resources","Test":"TestBoundedParallel"}
+{"Time":"2026-10-11T14:48:29.1752083+03:00","Action":"output","Package":"akasha/internal/resources","Test":"TestBoundedParallel","Output":"=== RUN   TestBoundedParallel\n"}
+{"Time":"2026-10-11T14:48:29.1752083+03:00","Action":"output","Package":"akasha/internal/resources","Test":"TestBoundedParallel","Output":"--- PASS: TestBoundedParallel (0.00s)\n"}
+{"Time":"2026-10-11T14:48:29.1752083+03:00","Action":"pass","Package":"akasha/internal/resources","Test":"TestBoundedParallel","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.1752083+03:00","Action":"output","Package":"akasha/internal/resources","Output":"PASS\n"}
+{"Time":"2026-10-11T14:48:29.1752083+03:00","Action":"output","Package":"akasha/internal/resources","Output":"ok  \takasha/internal/resources\t(cached)\n"}
+{"Time":"2026-10-11T14:48:29.1752083+03:00","Action":"pass","Package":"akasha/internal/resources","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.1768123+03:00","Action":"start","Package":"akasha/internal/sessionhttp"}
+{"Time":"2026-10-11T14:48:29.1768123+03:00","Action":"run","Package":"akasha/internal/sessionhttp","Test":"TestPasswordCookieLoginAndLogout"}
+{"Time":"2026-10-11T14:48:29.1768123+03:00","Action":"output","Package":"akasha/internal/sessionhttp","Test":"TestPasswordCookieLoginAndLogout","Output":"=== RUN   TestPasswordCookieLoginAndLogout\n"}
+{"Time":"2026-10-11T14:48:29.1768123+03:00","Action":"output","Package":"akasha/internal/sessionhttp","Test":"TestPasswordCookieLoginAndLogout","Output":"--- PASS: TestPasswordCookieLoginAndLogout (0.36s)\n"}
+{"Time":"2026-10-11T14:48:29.1768123+03:00","Action":"pass","Package":"akasha/internal/sessionhttp","Test":"TestPasswordCookieLoginAndLogout","Elapsed":0.36}
+{"Time":"2026-10-11T14:48:29.1768123+03:00","Action":"output","Package":"akasha/internal/sessionhttp","Output":"PASS\n"}
+{"Time":"2026-10-11T14:48:29.1768123+03:00","Action":"output","Package":"akasha/internal/sessionhttp","Output":"ok  \takasha/internal/sessionhttp\t(cached)\n"}
+{"Time":"2026-10-11T14:48:29.1768123+03:00","Action":"pass","Package":"akasha/internal/sessionhttp","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"start","Package":"akasha/internal/skillrepo"}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"run","Package":"akasha/internal/skillrepo","Test":"TestCreateFromEvidenceKeepsVersionsAndGroup"}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"output","Package":"akasha/internal/skillrepo","Test":"TestCreateFromEvidenceKeepsVersionsAndGroup","Output":"=== RUN   TestCreateFromEvidenceKeepsVersionsAndGroup\n"}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"output","Package":"akasha/internal/skillrepo","Test":"TestCreateFromEvidenceKeepsVersionsAndGroup","Output":"--- PASS: TestCreateFromEvidenceKeepsVersionsAndGroup (0.99s)\n"}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"pass","Package":"akasha/internal/skillrepo","Test":"TestCreateFromEvidenceKeepsVersionsAndGroup","Elapsed":0.99}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"run","Package":"akasha/internal/skillrepo","Test":"TestInstallRenameWaitsForWindowsFileHandle"}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"output","Package":"akasha/internal/skillrepo","Test":"TestInstallRenameWaitsForWindowsFileHandle","Output":"=== RUN   TestInstallRenameWaitsForWindowsFileHandle\n"}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"output","Package":"akasha/internal/skillrepo","Test":"TestInstallRenameWaitsForWindowsFileHandle","Output":"--- PASS: TestInstallRenameWaitsForWindowsFileHandle (0.09s)\n"}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"pass","Package":"akasha/internal/skillrepo","Test":"TestInstallRenameWaitsForWindowsFileHandle","Elapsed":0.09}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"run","Package":"akasha/internal/skillrepo","Test":"TestDivergentSkillVersionsAndSafeInstall"}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"output","Package":"akasha/internal/skillrepo","Test":"TestDivergentSkillVersionsAndSafeInstall","Output":"=== RUN   TestDivergentSkillVersionsAndSafeInstall\n"}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"output","Package":"akasha/internal/skillrepo","Test":"TestDivergentSkillVersionsAndSafeInstall","Output":"--- PASS: TestDivergentSkillVersionsAndSafeInstall (0.29s)\n"}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"pass","Package":"akasha/internal/skillrepo","Test":"TestDivergentSkillVersionsAndSafeInstall","Elapsed":0.29}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"output","Package":"akasha/internal/skillrepo","Output":"PASS\n"}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"output","Package":"akasha/internal/skillrepo","Output":"ok  \takasha/internal/skillrepo\t(cached)\n"}
+{"Time":"2026-10-11T14:48:29.1784206+03:00","Action":"pass","Package":"akasha/internal/skillrepo","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.1800273+03:00","Action":"start","Package":"akasha/internal/sqldb"}
+{"Time":"2026-10-11T14:48:29.1800273+03:00","Action":"run","Package":"akasha/internal/sqldb","Test":"TestPlaceholdersAndFlags"}
+{"Time":"2026-10-11T14:48:29.1800273+03:00","Action":"output","Package":"akasha/internal/sqldb","Test":"TestPlaceholdersAndFlags","Output":"=== RUN   TestPlaceholdersAndFlags\n"}
+{"Time":"2026-10-11T14:48:29.1800273+03:00","Action":"output","Package":"akasha/internal/sqldb","Test":"TestPlaceholdersAndFlags","Output":"--- PASS: TestPlaceholdersAndFlags (0.00s)\n"}
+{"Time":"2026-10-11T14:48:29.1800273+03:00","Action":"pass","Package":"akasha/internal/sqldb","Test":"TestPlaceholdersAndFlags","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.1800273+03:00","Action":"output","Package":"akasha/internal/sqldb","Output":"PASS\n"}
+{"Time":"2026-10-11T14:48:29.1800273+03:00","Action":"output","Package":"akasha/internal/sqldb","Output":"ok  \takasha/internal/sqldb\t(cached)\n"}
+{"Time":"2026-10-11T14:48:29.1800273+03:00","Action":"pass","Package":"akasha/internal/sqldb","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"start","Package":"akasha/internal/syncer"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"run","Package":"akasha/internal/syncer","Test":"TestSharedSkillsTravelBetweenDevices"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"output","Package":"akasha/internal/syncer","Test":"TestSharedSkillsTravelBetweenDevices","Output":"=== RUN   TestSharedSkillsTravelBetweenDevices\n"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"start","Package":"akasha/internal/vault"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"run","Package":"akasha/internal/vault","Test":"TestPortableProjectKeysAndWrongPasswords"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"output","Package":"akasha/internal/syncer","Test":"TestSharedSkillsTravelBetweenDevices","Output":"--- PASS: TestSharedSkillsTravelBetweenDevices (0.80s)\n"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"output","Package":"akasha/internal/vault","Test":"TestPortableProjectKeysAndWrongPasswords","Output":"=== RUN   TestPortableProjectKeysAndWrongPasswords\n"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"output","Package":"akasha/internal/vault","Test":"TestPortableProjectKeysAndWrongPasswords","Output":"--- PASS: TestPortableProjectKeysAndWrongPasswords (0.77s)\n"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"pass","Package":"akasha/internal/syncer","Test":"TestSharedSkillsTravelBetweenDevices","Elapsed":0.8}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"pass","Package":"akasha/internal/vault","Test":"TestPortableProjectKeysAndWrongPasswords","Elapsed":0.77}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"output","Package":"akasha/internal/vault","Output":"PASS\n"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"output","Package":"akasha/internal/vault","Output":"ok  \takasha/internal/vault\t(cached)\n"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"pass","Package":"akasha/internal/vault","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"run","Package":"akasha/internal/syncer","Test":"TestTwoDevicesEncryptedSyncFilesSecretsAndConflicts"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"output","Package":"akasha/internal/syncer","Test":"TestTwoDevicesEncryptedSyncFilesSecretsAndConflicts","Output":"=== RUN   TestTwoDevicesEncryptedSyncFilesSecretsAndConflicts\n"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"output","Package":"akasha/internal/syncer","Test":"TestTwoDevicesEncryptedSyncFilesSecretsAndConflicts","Output":"--- PASS: TestTwoDevicesEncryptedSyncFilesSecretsAndConflicts (1.01s)\n"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"pass","Package":"akasha/internal/syncer","Test":"TestTwoDevicesEncryptedSyncFilesSecretsAndConflicts","Elapsed":1.01}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"run","Package":"akasha/internal/syncer","Test":"TestEnvelopeTamperAndScope"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"output","Package":"akasha/internal/syncer","Test":"TestEnvelopeTamperAndScope","Output":"=== RUN   TestEnvelopeTamperAndScope\n"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"output","Package":"akasha/internal/syncer","Test":"TestEnvelopeTamperAndScope","Output":"--- PASS: TestEnvelopeTamperAndScope (0.00s)\n"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"pass","Package":"akasha/internal/syncer","Test":"TestEnvelopeTamperAndScope","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"output","Package":"akasha/internal/syncer","Output":"PASS\n"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"output","Package":"akasha/internal/syncer","Output":"ok  \takasha/internal/syncer\t(cached)\n"}
+{"Time":"2026-10-11T14:48:29.1890922+03:00","Action":"pass","Package":"akasha/internal/syncer","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.191287+03:00","Action":"start","Package":"akasha/internal/webui"}
+{"Time":"2026-10-11T14:48:29.191287+03:00","Action":"run","Package":"akasha/internal/webui","Test":"TestHTTPAuthorizationOriginAndCRUD"}
+{"Time":"2026-10-11T14:48:29.191287+03:00","Action":"output","Package":"akasha/internal/webui","Test":"TestHTTPAuthorizationOriginAndCRUD","Output":"=== RUN   TestHTTPAuthorizationOriginAndCRUD\n"}
+{"Time":"2026-10-11T14:48:29.191287+03:00","Action":"output","Package":"akasha/internal/webui","Test":"TestHTTPAuthorizationOriginAndCRUD","Output":"--- PASS: TestHTTPAuthorizationOriginAndCRUD (0.33s)\n"}
+{"Time":"2026-10-11T14:48:29.191287+03:00","Action":"pass","Package":"akasha/internal/webui","Test":"TestHTTPAuthorizationOriginAndCRUD","Elapsed":0.33}
+{"Time":"2026-10-11T14:48:29.191287+03:00","Action":"output","Package":"akasha/internal/webui","Output":"PASS\n"}
+{"Time":"2026-10-11T14:48:29.191287+03:00","Action":"output","Package":"akasha/internal/webui","Output":"ok  \takasha/internal/webui\t(cached)\n"}
+{"Time":"2026-10-11T14:48:29.191287+03:00","Action":"pass","Package":"akasha/internal/webui","Elapsed":0}
+{"Time":"2026-10-11T14:48:29.2221131+03:00","Action":"run","Package":"akasha/internal/integration","Test":"TestAddPreservesConfigurationAndIsIdempotent"}
+{"Time":"2026-10-11T14:48:29.2221131+03:00","Action":"output","Package":"akasha/internal/integration","Test":"TestAddPreservesConfigurationAndIsIdempotent","Output":"=== RUN   TestAddPreservesConfigurationAndIsIdempotent\n"}
+{"Time":"2026-10-11T14:48:29.3451112+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestLimitsAndCredentials","Output":"--- PASS: TestLimitsAndCredentials (0.26s)\n"}
+{"Time":"2026-10-11T14:48:29.3451112+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestLimitsAndCredentials","Elapsed":0.26}
+{"Time":"2026-10-11T14:48:29.3451112+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestAnalysisAndReusableCapture"}
+{"Time":"2026-10-11T14:48:29.3451112+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestAnalysisAndReusableCapture","Output":"=== RUN   TestAnalysisAndReusableCapture\n"}
+{"Time":"2026-10-11T14:48:29.4461095+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestAnalysisAndReusableCapture","Output":"--- PASS: TestAnalysisAndReusableCapture (0.10s)\n"}
+{"Time":"2026-10-11T14:48:29.4461095+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestAnalysisAndReusableCapture","Elapsed":0.1}
+{"Time":"2026-10-11T14:48:29.4461095+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestCapturePreservesQuestionsAndVaultReferences"}
+{"Time":"2026-10-11T14:48:29.4461095+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestCapturePreservesQuestionsAndVaultReferences","Output":"=== RUN   TestCapturePreservesQuestionsAndVaultReferences\n"}
+{"Time":"2026-10-11T14:48:29.5331145+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestCapturePreservesQuestionsAndVaultReferences","Output":"--- PASS: TestCapturePreservesQuestionsAndVaultReferences (0.09s)\n"}
+{"Time":"2026-10-11T14:48:29.5331145+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestCapturePreservesQuestionsAndVaultReferences","Elapsed":0.09}
+{"Time":"2026-10-11T14:48:29.5331145+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestIsolationACLAndRetrieval"}
+{"Time":"2026-10-11T14:48:29.5331145+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestIsolationACLAndRetrieval","Output":"=== RUN   TestIsolationACLAndRetrieval\n"}
+{"Time":"2026-10-11T14:48:29.6907006+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestIsolationACLAndRetrieval","Output":"--- PASS: TestIsolationACLAndRetrieval (0.16s)\n"}
+{"Time":"2026-10-11T14:48:29.6907006+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestIsolationACLAndRetrieval","Elapsed":0.16}
+{"Time":"2026-10-11T14:48:29.6907006+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestCheckpointCarriesSkillsButNotActivation"}
+{"Time":"2026-10-11T14:48:29.6907006+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestCheckpointCarriesSkillsButNotActivation","Output":"=== RUN   TestCheckpointCarriesSkillsButNotActivation\n"}
+{"Time":"2026-10-11T14:48:29.8490842+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestCheckpointCarriesSkillsButNotActivation","Output":"--- PASS: TestCheckpointCarriesSkillsButNotActivation (0.16s)\n"}
+{"Time":"2026-10-11T14:48:29.8490842+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestCheckpointCarriesSkillsButNotActivation","Elapsed":0.16}
+{"Time":"2026-10-11T14:48:29.8490842+03:00","Action":"run","Package":"akasha/internal/ilang","Test":"TestRevisionIntegrityAndSymbolIdentity"}
+{"Time":"2026-10-11T14:48:29.8490842+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestRevisionIntegrityAndSymbolIdentity","Output":"=== RUN   TestRevisionIntegrityAndSymbolIdentity\n"}
+{"Time":"2026-10-11T14:48:29.9254138+03:00","Action":"output","Package":"akasha/internal/ilang","Test":"TestRevisionIntegrityAndSymbolIdentity","Output":"--- PASS: TestRevisionIntegrityAndSymbolIdentity (0.08s)\n"}
+{"Time":"2026-10-11T14:48:29.9254138+03:00","Action":"pass","Package":"akasha/internal/ilang","Test":"TestRevisionIntegrityAndSymbolIdentity","Elapsed":0.08}
+{"Time":"2026-10-11T14:48:29.9254138+03:00","Action":"output","Package":"akasha/internal/ilang","Output":"PASS\n"}
+{"Time":"2026-10-11T14:48:29.9327611+03:00","Action":"output","Package":"akasha/internal/ilang","Output":"ok  \takasha/internal/ilang\t1.377s\n"}
+{"Time":"2026-10-11T14:48:29.9846404+03:00","Action":"output","Package":"akasha/internal/integration","Test":"TestAddPreservesConfigurationAndIsIdempotent","Output":"--- PASS: TestAddPreservesConfigurationAndIsIdempotent (0.76s)\n"}
+{"Time":"2026-10-11T14:48:29.9846404+03:00","Action":"pass","Package":"akasha/internal/integration","Test":"TestAddPreservesConfigurationAndIsIdempotent","Elapsed":0.76}
+{"Time":"2026-10-11T14:48:29.9846404+03:00","Action":"run","Package":"akasha/internal/integration","Test":"TestAddRootedGroupsAndReader"}
+{"Time":"2026-10-11T14:48:29.9846404+03:00","Action":"output","Package":"akasha/internal/integration","Test":"TestAddRootedGroupsAndReader","Output":"=== RUN   TestAddRootedGroupsAndReader\n"}
+{"Time":"2026-10-11T14:48:30.1948326+03:00","Action":"pass","Package":"akasha/internal/ilang","Elapsed":1.639}
+{"Time":"2026-10-11T14:48:31.1106242+03:00","Action":"output","Package":"akasha/internal/integration","Test":"TestAddRootedGroupsAndReader","Output":"--- PASS: TestAddRootedGroupsAndReader (1.13s)\n"}
+{"Time":"2026-10-11T14:48:31.1106242+03:00","Action":"pass","Package":"akasha/internal/integration","Test":"TestAddRootedGroupsAndReader","Elapsed":1.13}
+{"Time":"2026-10-11T14:48:31.1106242+03:00","Action":"run","Package":"akasha/internal/integration","Test":"TestIlangMCPOptInRoundTripAndRevocation"}
+{"Time":"2026-10-11T14:48:31.1106242+03:00","Action":"output","Package":"akasha/internal/integration","Test":"TestIlangMCPOptInRoundTripAndRevocation","Output":"=== RUN   TestIlangMCPOptInRoundTripAndRevocation\n"}
+{"Time":"2026-10-11T14:48:31.2114364+03:00","Action":"output","Package":"akasha/internal/integration","Test":"TestIlangMCPOptInRoundTripAndRevocation","Output":"--- PASS: TestIlangMCPOptInRoundTripAndRevocation (0.10s)\n"}
+{"Time":"2026-10-11T14:48:31.2114364+03:00","Action":"pass","Package":"akasha/internal/integration","Test":"TestIlangMCPOptInRoundTripAndRevocation","Elapsed":0.1}
+{"Time":"2026-10-11T14:48:31.2114364+03:00","Action":"run","Package":"akasha/internal/integration","Test":"TestMCPHandshakeListAndCalls"}
+{"Time":"2026-10-11T14:48:31.2114364+03:00","Action":"output","Package":"akasha/internal/integration","Test":"TestMCPHandshakeListAndCalls","Output":"=== RUN   TestMCPHandshakeListAndCalls\n"}
+{"Time":"2026-10-11T14:48:31.3247789+03:00","Action":"output","Package":"akasha/internal/integration","Test":"TestMCPHandshakeListAndCalls","Output":"--- PASS: TestMCPHandshakeListAndCalls (0.11s)\n"}
+{"Time":"2026-10-11T14:48:31.3247789+03:00","Action":"pass","Package":"akasha/internal/integration","Test":"TestMCPHandshakeListAndCalls","Elapsed":0.11}
+{"Time":"2026-10-11T14:48:31.3247789+03:00","Action":"run","Package":"akasha/internal/integration","Test":"TestHooksContractsScopeAndCheckpoint"}
+{"Time":"2026-10-11T14:48:31.3247789+03:00","Action":"output","Package":"akasha/internal/integration","Test":"TestHooksContractsScopeAndCheckpoint","Output":"=== RUN   TestHooksContractsScopeAndCheckpoint\n"}
+{"Time":"2026-10-11T14:48:31.4871048+03:00","Action":"output","Package":"akasha/internal/integration","Test":"TestHooksContractsScopeAndCheckpoint","Output":"--- PASS: TestHooksContractsScopeAndCheckpoint (0.16s)\n"}
+{"Time":"2026-10-11T14:48:31.4871048+03:00","Action":"pass","Package":"akasha/internal/integration","Test":"TestHooksContractsScopeAndCheckpoint","Elapsed":0.16}
+{"Time":"2026-10-11T14:48:31.4871048+03:00","Action":"output","Package":"akasha/internal/integration","Output":"PASS\n"}
+{"Time":"2026-10-11T14:48:31.4926969+03:00","Action":"output","Package":"akasha/internal/integration","Output":"ok  \takasha/internal/integration\t2.317s\n"}
+{"Time":"2026-10-11T14:48:34.903017+03:00","Action":"pass","Package":"akasha/internal/integration","Elapsed":5.728}

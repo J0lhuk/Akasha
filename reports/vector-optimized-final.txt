@@ -1,0 +1,9 @@
+goos: windows
+goarch: amd64
+pkg: akasha/internal/core
+cpu: AMD Ryzen 7 1700 Eight-Core Processor          
+BenchmarkVectorScan1000-12    	     344	    988483 ns/op	  146581 B/op	     106 allocs/op
+BenchmarkVectorScan1000-12    	     375	    922283 ns/op	  144921 B/op	     102 allocs/op
+BenchmarkVectorScan1000-12    	     319	   1066961 ns/op	  148030 B/op	     111 allocs/op
+PASS
+ok  	akasha/internal/core	10.952s

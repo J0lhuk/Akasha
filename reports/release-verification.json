@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "archives": [
+    {
+      "archive": "akasha-0.2.0-windows-amd64.zip",
+      "sha256": "8a0870506454b4eed1f87d50e5042bec2ebef7c3c5f764dc485cd033007cbf40",
+      "bytes": 11361713,
+      "entries": 130
+    },
+    {
+      "archive": "akasha-0.2.0-linux-amd64.zip",
+      "sha256": "f453c3527838add3621f078a5e4c262332045d0834ffca51d1d35abff59854cb",
+      "bytes": 11274144,
+      "entries": 130
+    },
+    {
+      "archive": "akasha-0.2.0-source.zip",
+      "sha256": "eaded9b5d3221339f5269a6876b82ee4ed29650337969842480ea651f826b0e4",
+      "bytes": 949634,
+      "entries": 287
+    }
+  ],
+  "windows_extracted_binary": "version + isolated write/search/context budget roundtrip",
+  "linux_exported_binary": "actual executable mounted read-only, network none",
+  "fixture": "D:\\!!!-=Projectz=-\\Akasha\\.local\\release-check-496e8bbf59"
+}

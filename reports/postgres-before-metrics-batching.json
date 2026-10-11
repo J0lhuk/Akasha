@@ -1,0 +1,21 @@
+{
+  "compose_project": "akasha-e2e-439f50d6cd",
+  "users": 10,
+  "passed": false,
+  "checks": [
+    "Alembic revision, Timescale hypertable, application database role without superuser",
+    "Ten concurrent account logins; ten isolated catalogs; cross-group reads denied",
+    "400 parallel HTTP sync requests; 200 preserved events; ten same-project writers and idempotent retries"
+  ],
+  "timescale_version": "2.30.2",
+  "postgres_version": "17.11",
+  "load": {
+    "requests": 400,
+    "duration_seconds": 17.494044699938968,
+    "requests_per_second": 22.864923856139196,
+    "p50_ms": 110.11210002470762,
+    "p95_ms": 1450.5803999491036,
+    "max_ms": 6394.705699989572
+  },
+  "other_containers_unchanged": true
+}

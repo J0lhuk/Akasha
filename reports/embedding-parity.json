@@ -1,0 +1,24 @@
+{
+  "python_ort": "1.27.0",
+  "checks": [
+    {
+      "text": "Повторное списание денег за один заказ",
+      "tokens": 12,
+      "active_tokens": 12,
+      "max_abs_error": 6.667805878268762e-08
+    },
+    {
+      "text": "Защита учётных данных от перебора с дорогими вычислениями",
+      "tokens": 20,
+      "active_tokens": 20,
+      "max_abs_error": 7.882673938586215e-08
+    },
+    {
+      "text": "Reject edits made from an outdated document revision",
+      "tokens": 17,
+      "active_tokens": 17,
+      "max_abs_error": 3.466708429697429e-08
+    }
+  ],
+  "passed": true
+}

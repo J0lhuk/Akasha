@@ -1,0 +1,64 @@
+name: akasha
+services:
+  db:
+    image: timescale/timescaledb:2.30.2-pg17
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: akasha
+      POSTGRES_USER: akasha_migrate
+      POSTGRES_PASSWORD: ${AKASHA_DB_PASSWORD:?Set a generated hex database password}
+      TS_TUNE_MEMORY: 2GB
+      TS_TUNE_NUM_CPUS: 2
+      TS_TUNE_MAX_CONNS: 60
+      TS_TUNE_MAX_BG_WORKERS: 16
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, "pg_isready -h 127.0.0.1 -U akasha_migrate -d akasha"]
+      interval: 3s
+      timeout: 3s
+      retries: 30
+    mem_limit: 2g
+    cpus: 2.0
+    pids_limit: 150
+    command: [postgres, -c, timescaledb.telemetry_level=off]
+  migrate:
+    build: ./migrations
+    environment:
+      AKASHA_DATABASE_URL: postgresql://akasha_migrate:${AKASHA_DB_PASSWORD}@db:5432/akasha?sslmode=disable
+      AKASHA_APP_DB_PASSWORD: ${AKASHA_APP_DB_PASSWORD:?Set a separate generated hex application database password}
+    depends_on:
+      db: {condition: service_healthy}
+    mem_limit: 256m
+    cpus: 1.0
+  hub:
+    build:
+      context: .
+      target: runtime
+    image: akasha:0.2.0
+    restart: unless-stopped
+    environment:
+      AKASHA_HUB_TOKEN: ${AKASHA_HUB_TOKEN:?Generate and set an owner token of at least 32 characters}
+      AKASHA_DATABASE_URL: postgresql://akasha_app:${AKASHA_APP_DB_PASSWORD}@db:5432/akasha?sslmode=disable
+      AKASHA_ADMIN_USERNAME: ${AKASHA_ADMIN_USERNAME:?Set the administrator login}
+      AKASHA_ADMIN_PASSWORD: ${AKASHA_ADMIN_PASSWORD:?Set an administrator password of at least 12 characters}
+      GOMEMLIMIT: 384MiB
+    command: ["hub", "--data", "/data", "--listen", ":7342", "--hub-token-env", "AKASHA_HUB_TOKEN"]
+    ports:
+      - "127.0.0.1:${AKASHA_HUB_PORT:-7342}:7342"
+    volumes:
+      - hub-data:/data
+    depends_on:
+      migrate: {condition: service_completed_successfully}
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,noexec,nosuid
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 512m
+    cpus: 2.0
+    pids_limit: 100
+volumes:
+  postgres-data:
+  hub-data:

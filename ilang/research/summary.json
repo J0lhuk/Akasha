@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-11T11:17:00.433058+00:00",
+  "github_nonempty_complete_unique_search_pages": 100,
+  "github_results_per_full_page": 30,
+  "github_unique_repository_references": 2662,
+  "web_preliminary_screened": 658,
+  "web_relevant_unique_pages": 573,
+  "review_excluded": 85,
+  "web_relevant_hosts": 39,
+  "web_source_families": 40,
+  "by_axis": {
+    "language": 63,
+    "workflow": 189,
+    "skills": 44,
+    "types": 74,
+    "compiler": 28,
+    "verification": 37,
+    "planning": 32,
+    "policy": 38,
+    "eval": 36,
+    "knowledge": 11,
+    "meta": 21
+  },
+  "readmes_acquired": 55,
+  "papers_acquired": 22,
+  "integrity_errors": [],
+  "acquisition_and_relevance_gate_passed": true,
+  "limitations": [
+    "100 API search pages are not 100 repository audits",
+    "500 documentation pages are not 500 independent research studies",
+    "Detailed system comparisons are separate from per-page screening",
+    "No coding-quality or token-savings experiment on ilang has yet been run"
+  ]
+}

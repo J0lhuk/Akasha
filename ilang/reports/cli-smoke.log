@@ -1,0 +1,104 @@
+{
+  "status": "passed",
+  "binary_sha256": "0684a467745e417f4dc5f4254670a19f3ec463f8eda805b091964b5329cd501d",
+  "ready_plan_steps": 3,
+  "questions_before_plan": 3,
+  "questions_on_reuse": 3,
+  "master_prompt_tokens": 833,
+  "text_budget": 8000,
+  "tokenizer": "o200k_base",
+  "external_model_api_calls": 0,
+  "observed_checks": 3,
+  "cloud_calls": 0,
+  "executor": "deterministic Python loopback fixture; not Codex",
+  "timings": [
+    {
+      "command": "space-add",
+      "milliseconds": 427.82
+    },
+    {
+      "command": "project-add",
+      "milliseconds": 39.46
+    },
+    {
+      "command": "ilang-status",
+      "milliseconds": 58.39
+    },
+    {
+      "command": "ilang-define",
+      "milliseconds": 54.07
+    },
+    {
+      "command": "ilang-enable",
+      "milliseconds": 45.8
+    },
+    {
+      "command": "ilang-define",
+      "milliseconds": 61.38
+    },
+    {
+      "command": "ilang-define",
+      "milliseconds": 64.62
+    },
+    {
+      "command": "ilang-define",
+      "milliseconds": 67.51
+    },
+    {
+      "command": "ilang-prepare",
+      "milliseconds": 63.91
+    },
+    {
+      "command": "ilang-answer",
+      "milliseconds": 65.91
+    },
+    {
+      "command": "ilang-answer",
+      "milliseconds": 116.38
+    },
+    {
+      "command": "ilang-report",
+      "milliseconds": 48.54
+    },
+    {
+      "command": "ilang-report",
+      "milliseconds": 68.52
+    },
+    {
+      "command": "ilang-capture",
+      "milliseconds": 73.19
+    },
+    {
+      "command": "ilang-prepare",
+      "milliseconds": 63.58
+    },
+    {
+      "command": "ilang-read",
+      "milliseconds": 65.92
+    },
+    {
+      "command": "install-codex",
+      "milliseconds": 101.32
+    },
+    {
+      "command": "ilang-disable",
+      "milliseconds": 51.37
+    },
+    {
+      "command": "ilang-list",
+      "milliseconds": 43.66
+    }
+  ],
+  "checks": [
+    "default off",
+    "pinned composition",
+    "all questions before plan",
+    "real local HTTP response",
+    "reject missing verification evidence",
+    "analysis tied to plan hash",
+    "capture recipe with fresh parameters and dialogue questions",
+    "historical revision marked non-current",
+    "generated command skill includes workflow",
+    "disable prevents further use"
+  ]
+}
